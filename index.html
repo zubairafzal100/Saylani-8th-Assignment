@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+
+<body onload="displayQuestion(0)">
+    <h1 class="h1">Quiz App made by Zubair Afzal</h1>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title" id="questions"></h5>
+            <p class="card-text options" onclick="addActiveClass(this)"></p>
+            <p class="card-text options" onclick="addActiveClass(this)"></p>
+            <p class="card-text options" onclick="addActiveClass(this)"></p>
+            <p class="card-text options" onclick="addActiveClass(this)"></p>
+            <div class="btn-div"><a href="#" class="btn btn-success" id="nextQBtn" onclick="nextQuestion()">Next Question</a></div>
+        </div>
+    </div>
+</body>
+<script src="./bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0 !important;
+}
+.h1{
+    font-size: 45px !important;
+    margin-top: 20px;
+    color: aqua;
+    background-color: black;
+    padding: 10px 10px 14px 10px;
+}
+.card{
+    width: 50% !important;
+    color: aqua;
+    padding-top: 30px;
+    min-height: 500px;
+    margin-top: 20px;
+    /* text-align: center; */
+    background-image: url('Images/bg-img.jpg');
+}
+.card-title{
+    font-size: 18px !important;
+    background-color: black;
+    padding: 10px 10px;
+    margin-bottom: 30px !important;
+}
+.card-text{
+    width: 50%;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 10px;
+    background-color: black;
+}
+.card-text:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin-top: 50px;
+}
+.active{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
